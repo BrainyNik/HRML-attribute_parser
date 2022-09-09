@@ -1,24 +1,5 @@
 /* HRML listing
 
-<tag1 value = "value">
-<tag2 name = "name">
-<tag3 another="another" final="final">
-</tag3>
-</tag2>
-</tag1>
-
-Queries
-tag1~value
-tag1.tag2.tag3~name
-tag1.tag2~value
-
-output:
-Query                 Value
-
-tag1~value            "value"
-tag1.tag2.tag3~name   "Not Found!"
-tag1.tag2.tag3~final  "final
-
 4 3
 <tag1 value = "HelloWorld">
 <tag2 name = "Name1">
